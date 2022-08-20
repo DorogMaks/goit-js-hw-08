@@ -13,8 +13,8 @@ populateFormOutput();
 function onFormSubmit(evt) {
   evt.preventDefault();
 
-  if (!email.value) return console.log('Введите ваш email');
-  if (!message.value) return console.log('Напишите ваш отзыв');
+  if (!email.value) return console.log('Enter your email');
+  if (!message.value) return console.log('Enter your message');
 
   console.log(JSON.parse(localStorage.getItem(STORAGE_KEY)));
 
